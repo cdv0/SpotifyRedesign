@@ -101,3 +101,55 @@ body {
     cursor: pointer;
 }
 
+.more-btn {
+    background-color: transparent;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.artist-tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+    font-size: 15px;
+}
+
+.artist-tabs .tab {
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.artist-tabs .active {
+    color: #1DB954;
+    border-bottom: 2px solid #1DB954;
+    padding-bottom: 4px;
+}
+
+.song-list {
+    padding: 10px 15px 100px;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.song img {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+.song-info h3 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.song-info p {
+    color: #b3b3b3;
+    font-size: 13px;
+    margin: 3px 0 0 0;
+}
