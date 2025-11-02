@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Ariana Grande • Releases</title>
+  <link rel="stylesheet" href="./styles/album.css" />
+</head>
+<body>
+  <div class="device">
+    <div class="page">
+
+      <div class="topbar">
+        <a class="icon-btn" href="./artist.html" title="Back"><img src="/assets/icons/left_arrow.png" alt="back" height="12"/></a>
+        <div class="topbar-title">Releases</div>
+        <button class="icon-btn-search" id="toggleSearch" title="Search"></button>
+      </div>
+
+      <nav class="chips" id="typeChips" aria-label="Release types">
+        <button class="chip is-active" data-type="All">All</button>
+        <button class="chip" data-type="Albums">Albums</button>
+        <button class="chip" data-type="SinglesEPs">Singles and EPs</button>
+        <button class="chip" data-type="Compilation">Compilation</button>
+        <button class="chip" data-type="Live">Live</button>
+        
+      </nav>
+
+
+      <section class="controls" id="controls">
+        <input id="q" type="search" class="search" placeholder="Search releases…" />
+        <div class="sort-wrap">
+          <label class="sr-only" for="sortBy">Sort releases</label>
+          <select id="sortBy" class="select">
+            <option value="year-desc">Newest</option>
+            <option value="year-asc">Oldest</option>
+            <option value="az">A–Z</option>
+          </select>
+        </div>
+      </section>
+
+      <main class="content" id="content">
+        <!-- Latest -->
+        <section class="section" id="latestSection">
+          <h2 class="section-title">Latest release</h2>
+          <ul class="release-list" id="latestList"></ul>
+        </section>
+
+        <section class="section" id="listSection">
+          <div class="section-head">
+            <h2 class="section-title" id="listTitle">Albums</h2>
+          </div>
+          <ul class="release-list" id="releaseList"></ul>
+        </section>
+
+        <div class="empty" id="empty" hidden>
+          <p>No releases match your filters.</p>
+          <button class="btn" id="reset">Reset filters</button>
+        </div>
+      </main>
+
+    </div>
+  </div>
+
+  <script src="./scripts/album.js" defer></script>
+</body>
+</html>
