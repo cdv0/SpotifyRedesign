@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: "Nunito", Roboto, sans-serif;
+    padding: 20px;
+    height: 100vh;
+    background: linear-gradient(to bottom, gray 1%, black 50%);
+}
+
+h1, p {
+    color: white;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+.header {
+    margin-bottom: 16px;
+}
+
+
+/* BANNER */
+
+.banner {
+    display: flex;
+    gap: 32px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.pfp {
+    display: flex;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.banner-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.banner-left {
+    gap: 8px;
+}
+
+.user-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subheader {
+    color: lightgray;
+}
+
+.playlist-img {
+    background-color: rgb(139, 139, 139);
+    height: 95px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-time {
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+
+/* UTILITY SECTION*/
+
+.utility {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 18px;
+}
+
+.utility-left {
+    display: flex;
+    gap: 20px;
+}
+
+.utility-right {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.play-btn {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(11, 238, 90);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-btn img {
+    filter: invert(1);
+}
+
+/* SONG SECTION */ 
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 18px;
+}
+
+.btn span {
+    font-weight: 600;
+}
+
+/* RECOMMENDED SONGS */
+
+.rec-songs h2 {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* SONG LIST*/
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-item-left {
+    display: flex;
+    gap: 16px;
+}
+
+.song-title {
+    font-size: 16px;
+}
+
+.song-artist {
+    font-size: 13px;
+    color: lightgray;
+}
+
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 20px 4px 20px;
+    background: rgba(18,18,18,0.95);
+}
+
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-icon p {
+    font-size: 12px;
+    font-weight: 600;
+}
