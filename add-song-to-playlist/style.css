@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Nunito", Roboto, sans-serif;
     padding: 20px;
-    height: calc(100vh-40px);
+    height: calc(100vh - 40px);
     background: linear-gradient(to bottom, gray 1%, black 50%);
     overflow: auto;
 }
