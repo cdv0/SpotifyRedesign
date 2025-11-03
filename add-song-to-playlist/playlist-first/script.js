@@ -26,12 +26,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const songBtnsInModal = document.querySelectorAll('#modal .song-btn');
   const notification = document.querySelector('#modal .song-added');
   const selSong = document.getElementById('selected-song');
+  const undoBtn = document.querySelector('#modal .undo');
+  const statusLine = document.querySelector('#modal .add-song-modal-right p');
 
   function showInModalNotification(songTitle) {
     if (!notification) return;
     if (selSong) selSong.textContent = songTitle;
+    if (statusLine) statusLine.innerHTML = 'Added to <strong>My playlist #1</strong>:';
+    if (undoBtn) undoBtn.style.display = 'flex';
     notification.classList.add('open');
-    setTimeout(() => notification.classList.remove('open'), 2200);
+    setTimeout(() => notification.classList.remove('open'), 2500);
   }
 
   songBtnsInModal.forEach(btn => {
@@ -40,4 +44,14 @@ document.addEventListener("DOMContentLoaded", () => {
       showInModalNotification(songTitle);
     });
   });
+
+  if (undoBtn) {
+    undoBtn.addEventListener('click', () => {
+      if (!notification) return;
+      if (statusLine) statusLine.innerHTML = 'Removed from <strong>My playlist #1</strong>:';
+      notification.classList.add('open');
+      setTimeout(() => notification.classList.remove('open'), 2500);
+      undoBtn.style.display = 'none';
+    });
+  }
 });
