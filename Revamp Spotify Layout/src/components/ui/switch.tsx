@@ -1,3 +1,8 @@
+// Switch.tsx
+// This component is used to display the switch
+// It is used in the components/ui folder to display the switch
+// It is also used in the components/ui/switch.tsx file to display the switch
+// It is also used in the components/ui/switch.tsx file to display the switch
 "use client";
 
 import * as React from "react";

@@ -1,3 +1,8 @@
+// ToggleGroup.tsx
+// This component is used to display the toggle group
+// It is used in the components/ui folder to display the toggle group
+// It is also used in the components/ui/toggle-group.tsx file to display the toggle group
+// It is also used in the components/ui/toggle-group.tsx file to display the toggle group
 "use client";
 
 import * as React from "react";

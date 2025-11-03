@@ -1,4 +1,9 @@
 // for tab navigation
+// script.js
+// This file is used to display the script
+// It is used in the script.js file to display the script
+// It is also used in the script.js file to display the script
+// It is also used in the script.js file to display the script
 const tabs = document.querySelectorAll(".tab");
 
 tabs.forEach(tab => {

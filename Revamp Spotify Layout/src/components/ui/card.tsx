@@ -1,3 +1,8 @@
+// Card.tsx
+// This component is used to display the card
+// It is used in the components/ui folder to display the card
+// It is also used in the components/ui/card.tsx file to display the card
+// It is also used in the components/ui/card.tsx file to display the card
 import * as React from "react";
 
 import { cn } from "./utils";

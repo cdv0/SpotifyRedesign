@@ -1,3 +1,8 @@
+// Drawer.tsx
+// This component is used to display the drawer
+// It is used in the components/ui folder to display the drawer
+// It is also used in the components/ui/drawer.tsx file to display the drawer
+// It is also used in the components/ui/drawer.tsx file to display the drawer
 "use client";
 
 import * as React from "react";

@@ -1,3 +1,8 @@
+// Carousel.tsx
+// This component is used to display the carousel
+// It is used in the components/ui folder to display the carousel
+// It is also used in the components/ui/carousel.tsx file to display the carousel
+// It is also used in the components/ui/carousel.tsx file to display the carousel
 "use client";
 
 import * as React from "react";

@@ -1,3 +1,8 @@
+// Avatar.tsx
+// This component is used to display the avatar
+// It is used in the components/ui folder to display the avatar
+// It is also used in the components/ui/avatar.tsx file to display the avatar
+// It is also used in the components/ui/avatar.tsx file to display the avatar
 "use client";
 
 import * as React from "react";

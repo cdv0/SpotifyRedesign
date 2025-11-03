@@ -1,3 +1,8 @@
+// Toggle.tsx
+// This component is used to display the toggle
+// It is used in the components/ui folder to display the toggle
+// It is also used in the components/ui/toggle.tsx file to display the toggle
+// It is also used in the components/ui/toggle.tsx file to display the toggle
 "use client";
 
 import * as React from "react";

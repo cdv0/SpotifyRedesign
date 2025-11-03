@@ -1,3 +1,8 @@
+// Tooltip.tsx
+// This component is used to display the tooltip
+// It is used in the components/ui folder to display the tooltip
+// It is also used in the components/ui/tooltip.tsx file to display the tooltip
+// It is also used in the components/ui/tooltip.tsx file to display the tooltip
 "use client";
 
 import * as React from "react";

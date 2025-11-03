@@ -1,3 +1,8 @@
+// HoverCard.tsx
+// This component is used to display the hover card
+// It is used in the components/ui folder to display the hover card
+// It is also used in the components/ui/hover-card.tsx file to display the hover card
+// It is also used in the components/ui/hover-card.tsx file to display the hover card
 "use client";
 
 import * as React from "react";

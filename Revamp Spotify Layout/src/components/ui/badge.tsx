@@ -1,3 +1,8 @@
+// Badge.tsx
+// This component is used to display the badge
+// It is used in the components/ui folder to display the badge
+// It is also used in the components/ui/badge.tsx file to display the badge
+// It is also used in the components/ui/badge.tsx file to display the badge
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot@1.1.2";
 import { cva, type VariantProps } from "class-variance-authority@0.7.1";

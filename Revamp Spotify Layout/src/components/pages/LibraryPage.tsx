@@ -1,3 +1,11 @@
+// LibraryPage.tsx
+// This component is used to display the library page
+// It is used in the components/pages folder to display the library page
+// It is also used in the components/pages/HomePage.tsx file to display the library page
+// It is also used in the components/pages/SearchPage.tsx file to display the library page
+// It is also used in the components/pages/PlaylistPage.tsx file to display the library page
+// It is also used in the components/pages/LibraryPage.tsx file to display the library page
+// It is also used in the components/pages/LibraryPage.tsx file to display the library page
 import type { Playlist } from '../../App';
 
 interface LibraryPageProps {

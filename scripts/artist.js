@@ -1,4 +1,9 @@
 // Sample artist and album data
+// artist.js
+// This file is used to display the artist
+// It is used in the artist.js file to display the artist
+// It is also used in the artist.js file to display the artist
+// It is also used in the artist.js file to display the artist
 const artistsData = [
     {
         id: 0,

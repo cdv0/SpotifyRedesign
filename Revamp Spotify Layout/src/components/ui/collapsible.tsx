@@ -1,3 +1,8 @@
+// Collapsible.tsx
+// This component is used to display the collapsible
+// It is used in the components/ui folder to display the collapsible
+// It is also used in the components/ui/collapsible.tsx file to display the collapsible
+// It is also used in the components/ui/collapsible.tsx file to display the collapsible
 "use client";
 
 import * as CollapsiblePrimitive from "@radix-ui/react-collapsible@1.1.3";

@@ -1,3 +1,8 @@
+// RadioGroup.tsx
+// This component is used to display the radio group
+// It is used in the components/ui folder to display the radio group
+// It is also used in the components/ui/radio-group.tsx file to display the radio group
+// It is also used in the components/ui/radio-group.tsx file to display the radio group
 "use client";
 
 import * as React from "react";

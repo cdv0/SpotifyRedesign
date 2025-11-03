@@ -1,3 +1,8 @@
+// AddSongsModal.tsx
+// This component is used to display the add songs modal
+// It is used in the components/ui folder to display the add songs modal
+// It is also used in the components/ui/add-songs-modal.tsx file to display the add songs modal
+// It is also used in the components/ui/add-songs-modal.tsx file to display the add songs modal
 import { useState } from 'react';
 import { X, Search, Check } from 'lucide-react';
 import type { Song } from '../App';

@@ -1,3 +1,8 @@
+// Textarea.tsx
+// This component is used to display the textarea
+// It is used in the components/ui folder to display the textarea
+// It is also used in the components/ui/textarea.tsx file to display the textarea
+// It is also used in the components/ui/textarea.tsx file to display the textarea
 import * as React from "react";
 
 import { cn } from "./utils";

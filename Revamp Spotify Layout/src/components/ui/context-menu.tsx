@@ -1,3 +1,8 @@
+// ContextMenu.tsx
+// This component is used to display the context menu
+// It is used in the components/ui folder to display the context menu
+// It is also used in the components/ui/context-menu.tsx file to display the context menu
+// It is also used in the components/ui/context-menu.tsx file to display the context menu
 "use client";
 
 import * as React from "react";

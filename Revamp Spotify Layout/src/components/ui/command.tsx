@@ -1,3 +1,8 @@
+// Command.tsx
+// This component is used to display the command
+// It is used in the components/ui folder to display the command
+// It is also used in the components/ui/command.tsx file to display the command
+// It is also used in the components/ui/command.tsx file to display the command
 "use client";
 
 import * as React from "react";

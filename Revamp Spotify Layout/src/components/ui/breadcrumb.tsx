@@ -1,3 +1,8 @@
+// Breadcrumb.tsx
+// This component is used to display the breadcrumb
+// It is used in the components/ui folder to display the breadcrumb
+// It is also used in the components/ui/breadcrumb.tsx file to display the breadcrumb
+// It is also used in the components/ui/breadcrumb.tsx file to display the breadcrumb
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot@1.1.2";
 import { ChevronRight, MoreHorizontal } from "lucide-react@0.487.0";

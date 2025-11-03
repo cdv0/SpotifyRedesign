@@ -1,3 +1,8 @@
+// TopBar.tsx
+// This component is used to display the top bar
+// It is used in the components/ui folder to display the top bar
+// It is also used in the components/ui/top-bar.tsx file to display the top bar
+// It is also used in the components/ui/top-bar.tsx file to display the top bar
 import { ChevronLeft, ChevronRight, WifiOff, Wifi } from 'lucide-react';
 
 interface TopBarProps {

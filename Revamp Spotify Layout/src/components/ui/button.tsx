@@ -1,3 +1,8 @@
+// Button.tsx
+// This component is used to display the button
+// It is used in the components/ui folder to display the button
+// It is also used in the components/ui/button.tsx file to display the button
+// It is also used in the components/ui/button.tsx file to display the button
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot@1.1.2";
 import { cva, type VariantProps } from "class-variance-authority@0.7.1";

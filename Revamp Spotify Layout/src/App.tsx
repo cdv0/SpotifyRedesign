@@ -1,3 +1,8 @@
+// App.tsx
+// This component is used to display the app
+// It is used in the components/ui folder to display the app
+// It is also used in the components/ui/app.tsx file to display the app
+// It is also used in the components/ui/app.tsx file to display the app
 import { useState } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { TopBar } from './components/TopBar';

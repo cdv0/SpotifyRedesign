@@ -1,3 +1,8 @@
+// Dialog.tsx
+// This component is used to display the dialog
+// It is used in the components/ui folder to display the dialog
+// It is also used in the components/ui/dialog.tsx file to display the dialog
+// It is also used in the components/ui/dialog.tsx file to display the dialog
 "use client";
 
 import * as React from "react";

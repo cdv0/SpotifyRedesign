@@ -1,3 +1,8 @@
+// Calendar.tsx
+// This component is used to display the calendar
+// It is used in the components/ui folder to display the calendar
+// It is also used in the components/ui/calendar.tsx file to display the calendar
+// It is also used in the components/ui/calendar.tsx file to display the calendar
 "use client";
 
 import * as React from "react";

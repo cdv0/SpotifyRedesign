@@ -1,3 +1,8 @@
+// Sheet.tsx
+// This component is used to display the sheet
+// It is used in the components/ui folder to display the sheet
+// It is also used in the components/ui/sheet.tsx file to display the sheet
+// It is also used in the components/ui/sheet.tsx file to display the sheet
 "use client";
 
 import * as React from "react";

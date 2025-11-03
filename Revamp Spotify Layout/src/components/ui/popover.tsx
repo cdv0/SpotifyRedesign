@@ -1,3 +1,8 @@
+// Popover.tsx
+// This component is used to display the popover
+// It is used in the components/ui folder to display the popover
+// It is also used in the components/ui/popover.tsx file to display the popover
+// It is also used in the components/ui/popover.tsx file to display the popover
 "use client";
 
 import * as React from "react";

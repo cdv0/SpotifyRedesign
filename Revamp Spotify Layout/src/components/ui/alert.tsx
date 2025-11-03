@@ -1,3 +1,8 @@
+// Alert.tsx
+// This component is used to display the alert
+// It is used in the components/ui folder to display the alert
+// It is also used in the components/ui/alert.tsx file to display the alert
+// It is also used in the components/ui/alert.tsx file to display the alert
 import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority@0.7.1";
 

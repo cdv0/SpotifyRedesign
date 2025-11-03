@@ -1,3 +1,8 @@
+// Accordion.tsx
+// This component is used to display the accordion
+// It is used in the components/ui folder to display the accordion
+// It is also used in the components/ui/accordion.tsx file to display the accordion
+// It is also used in the components/ui/accordion.tsx file to display the accordion
 "use client";
 
 import * as React from "react";

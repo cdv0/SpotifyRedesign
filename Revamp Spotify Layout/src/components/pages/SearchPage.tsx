@@ -1,3 +1,11 @@
+// SearchPage.tsx
+// This component is used to display the search page
+// It is used in the components/pages folder to display the search page
+// It is also used in the components/pages/HomePage.tsx file to display the search page
+// It is also used in the components/pages/SearchPage.tsx file to display the search page
+// It is also used in the components/pages/PlaylistPage.tsx file to display the search page
+// It is also used in the components/pages/LibraryPage.tsx file to display the search page
+// It is also used in the components/pages/ArtistPage.tsx file to display the search page
 import { useState } from 'react';
 import { Search, Play } from 'lucide-react';
 import type { Song } from '../../App';

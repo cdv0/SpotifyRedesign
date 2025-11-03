@@ -1,3 +1,8 @@
+// Input.tsx
+// This component is used to display the input
+// It is used in the components/ui folder to display the input
+// It is also used in the components/ui/input.tsx file to display the input
+// It is also used in the components/ui/input.tsx file to display the input
 import * as React from "react";
 
 import { cn } from "./utils";

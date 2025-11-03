@@ -1,3 +1,8 @@
+// Separator.tsx
+// This component is used to display the separator
+// It is used in the components/ui folder to display the separator
+// It is also used in the components/ui/separator.tsx file to display the separator
+// It is also used in the components/ui/separator.tsx file to display the separator
 "use client";
 
 import * as React from "react";

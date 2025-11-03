@@ -1,3 +1,8 @@
+// Slider.tsx
+// This component is used to display the slider
+// It is used in the components/ui folder to display the slider
+// It is also used in the components/ui/slider.tsx file to display the slider
+// It is also used in the components/ui/slider.tsx file to display the slider
 "use client";
 
 import * as React from "react";

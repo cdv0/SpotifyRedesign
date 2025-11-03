@@ -1,3 +1,8 @@
+// InputOTP.tsx
+// This component is used to display the input OTP
+// It is used in the components/ui folder to display the input OTP
+// It is also used in the components/ui/input-otp.tsx file to display the input OTP
+// It is also used in the components/ui/input-otp.tsx file to display the input OTP
 "use client";
 
 import * as React from "react";

@@ -1,3 +1,8 @@
+// Menubar.tsx
+// This component is used to display the menubar
+// It is used in the components/ui folder to display the menubar
+// It is also used in the components/ui/menubar.tsx file to display the menubar
+// It is also used in the components/ui/menubar.tsx file to display the menubar
 "use client";
 
 import * as React from "react";

@@ -1,3 +1,8 @@
+// Label.tsx
+// This component is used to display the label
+// It is used in the components/ui folder to display the label
+// It is also used in the components/ui/label.tsx file to display the label
+// It is also used in the components/ui/label.tsx file to display the label
 "use client";
 
 import * as React from "react";

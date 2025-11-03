@@ -1,3 +1,8 @@
+// AlertDialog.tsx
+// This component is used to display the alert dialog
+// It is used in the components/ui folder to display the alert dialog
+// It is also used in the components/ui/alert-dialog.tsx file to display the alert dialog
+// It is also used in the components/ui/alert-dialog.tsx file to display the alert dialog
 "use client";
 
 import * as React from "react";

@@ -1,3 +1,8 @@
+// Resizable.tsx
+// This component is used to display the resizable
+// It is used in the components/ui folder to display the resizable
+// It is also used in the components/ui/resizable.tsx file to display the resizable
+// It is also used in the components/ui/resizable.tsx file to display the resizable
 "use client";
 
 import * as React from "react";

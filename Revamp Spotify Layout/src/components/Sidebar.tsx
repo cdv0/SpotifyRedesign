@@ -1,3 +1,8 @@
+// Sidebar.tsx
+// This component is used to display the sidebar
+// It is used in the components/ui folder to display the sidebar
+// It is also used in the components/ui/sidebar.tsx file to display the sidebar
+// It is also used in the components/ui/sidebar.tsx file to display the sidebar
 import { Home, Search, Library, Plus } from 'lucide-react';
 
 interface SidebarProps {

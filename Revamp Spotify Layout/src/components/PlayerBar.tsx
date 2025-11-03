@@ -1,3 +1,8 @@
+// PlayerBar.tsx
+// This component is used to display the player bar
+// It is used in the components/ui folder to display the player bar
+// It is also used in the components/ui/player-bar.tsx file to display the player bar
+// It is also used in the components/ui/player-bar.tsx file to display the player bar
 import { Play, Pause, SkipBack, SkipForward, Volume2, Download } from 'lucide-react';
 import type { Song } from '../App';
 

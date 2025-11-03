@@ -1,3 +1,8 @@
+// Tabs.tsx
+// This component is used to display the tabs
+// It is used in the components/ui folder to display the tabs
+// It is also used in the components/ui/tabs.tsx file to display the tabs
+// It is also used in the components/ui/tabs.tsx file to display the tabs
 "use client";
 
 import * as React from "react";

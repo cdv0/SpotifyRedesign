@@ -1,3 +1,11 @@
+// PlaylistPage.tsx
+// This component is used to display the playlist page
+// It is used in the components/pages folder to display the playlist page
+// It is also used in the components/pages/HomePage.tsx file to display the playlist page
+// It is also used in the components/pages/SearchPage.tsx file to display the playlist page
+// It is also used in the components/pages/PlaylistPage.tsx file to display the playlist page
+// It is also used in the components/pages/LibraryPage.tsx file to display the playlist page
+// It is also used in the components/pages/ArtistPage.tsx file to display the playlist page
 import { useState } from 'react';
 import { Play, Download, MoreHorizontal } from 'lucide-react';
 import { AddSongsModal } from '../AddSongsModal';

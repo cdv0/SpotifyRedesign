@@ -1,3 +1,8 @@
+// Progress.tsx
+// This component is used to display the progress
+// It is used in the components/ui folder to display the progress
+// It is also used in the components/ui/progress.tsx file to display the progress
+// It is also used in the components/ui/progress.tsx file to display the progress
 "use client";
 
 import * as React from "react";

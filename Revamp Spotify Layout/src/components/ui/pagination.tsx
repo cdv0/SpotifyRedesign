@@ -1,3 +1,8 @@
+// Pagination.tsx
+// This component is used to display the pagination
+// It is used in the components/ui folder to display the pagination
+// It is also used in the components/ui/pagination.tsx file to display the pagination
+// It is also used in the components/ui/pagination.tsx file to display the pagination
 import * as React from "react";
 import {
   ChevronLeftIcon,

@@ -1,3 +1,8 @@
+// Table.tsx
+// This component is used to display the table
+// It is used in the components/ui folder to display the table
+// It is also used in the components/ui/table.tsx file to display the table
+// It is also used in the components/ui/table.tsx file to display the table
 "use client";
 
 import * as React from "react";

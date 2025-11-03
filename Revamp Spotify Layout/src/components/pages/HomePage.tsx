@@ -1,3 +1,8 @@
+// HomePage.tsx
+// This component is used to display the home page
+// It is used in the components/pages folder to display the home page
+// It is also used in the components/pages/HomePage.tsx file to display the home page
+// It is also used in the components/pages/HomePage.tsx file to display the home page
 import type { Song } from '../../App';
 
 interface HomePageProps {

@@ -1,3 +1,12 @@
+// ImageWithFallback.tsx
+// This component is used to display a fallback image if the main image fails to load
+// It is used in the components/figma folder to display the fallback image for the images in the figma file
+// It is also used in the components/ui folder to display the fallback image for the images in the ui folder
+// It is also used in the components/ui/button.tsx file to display the fallback image for the images in the button.tsx file
+// It is also used in the components/ui/input.tsx file to display the fallback image for the images in the input.tsx file
+// It is also used in the components/ui/select.tsx file to display the fallback image for the images in the select.tsx file
+// It is also used in the components/ui/textarea.tsx file to display the fallback image for the images in the textarea.tsx file
+// It is also used in the components/ui/dropdown-menu.tsx file to display the fallback image for the images in the dropdown-menu.tsx file
 import React, { useState } from 'react'
 
 const ERROR_IMG_SRC =

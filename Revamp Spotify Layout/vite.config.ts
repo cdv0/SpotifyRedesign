@@ -1,4 +1,9 @@
-
+// vite.config.ts
+// This file is used to display the vite config
+// It is used in the vite.config.ts file to display the vite config
+// It is also used in the vite.config.ts file to display the vite config
+// It is also used in the vite.config.ts file to display the vite config
+  
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';

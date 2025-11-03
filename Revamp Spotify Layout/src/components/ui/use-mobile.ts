@@ -1,3 +1,8 @@
+// use-mobile.ts
+// This component is used to display the use-mobile
+// It is used in the components/ui folder to display the use-mobile
+// It is also used in the components/ui/use-mobile.ts file to display the use-mobile
+// It is also used in the components/ui/use-mobile.ts file to display the use-mobile
 import * as React from "react";
 
 const MOBILE_BREAKPOINT = 768;

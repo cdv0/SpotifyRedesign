@@ -1,3 +1,8 @@
+// album.js
+// This file is used to display the album
+// It is used in the album.js file to display the album
+// It is also used in the album.js file to display the album
+// It is also used in the album.js file to display the album
 const data = [
 
   { title:"supernatural", year:2024, type:"song", cover:"./assets/album-covers/supernatural.jpg" },

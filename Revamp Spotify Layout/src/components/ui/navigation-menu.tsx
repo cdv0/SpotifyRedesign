@@ -1,3 +1,8 @@
+// NavigationMenu.tsx
+// This component is used to display the navigation menu
+// It is used in the components/ui folder to display the navigation menu
+// It is also used in the components/ui/navigation-menu.tsx file to display the navigation menu
+// It is also used in the components/ui/navigation-menu.tsx file to display the navigation menu
 import * as React from "react";
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu@1.2.5";
 import { cva } from "class-variance-authority@0.7.1";

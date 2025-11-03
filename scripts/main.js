@@ -1,4 +1,9 @@
 // Sample data
+// main.js
+// This file is used to display the main
+// It is used in the main.js file to display the main
+// It is also used in the main.js file to display the main
+// It is also used in the main.js file to display the main
 const albumsData = [
     { id: 0, name: "Top 50 Global", image: "assets/img8.jpg", desc: "Your weekly update", bgColor: "#2a4365" },
     { id: 1, name: "Top 50 India", image: "assets/img9.jpg", desc: "Your weekly update", bgColor: "#22543d" },

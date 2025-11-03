@@ -1,3 +1,8 @@
+// Select.tsx
+// This component is used to display the select
+// It is used in the components/ui folder to display the select
+// It is also used in the components/ui/select.tsx file to display the select
+// It is also used in the components/ui/select.tsx file to display the select
 "use client";
 
 import * as React from "react";

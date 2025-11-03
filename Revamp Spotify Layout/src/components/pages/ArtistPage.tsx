@@ -1,3 +1,12 @@
+// ArtistPage.tsx
+// This component is used to display the artist page
+// It is used in the components/pages folder to display the artist page
+// It is also used in the components/pages/HomePage.tsx file to display the artist page
+// It is also used in the components/pages/SearchPage.tsx file to display the artist page
+// It is also used in the components/pages/PlaylistPage.tsx file to display the artist page
+// It is also used in the components/pages/LibraryPage.tsx file to display the artist page
+// It is also used in the components/pages/ArtistPage.tsx file to display the artist page
+// It is also used in the components/pages/ArtistPage.tsx file to display the artist page
 import { useState } from 'react';
 import { Play, Download, Search } from 'lucide-react';
 import type { Song, Album } from '../../App';

@@ -1,3 +1,8 @@
+// DropdownMenu.tsx
+// This component is used to display the dropdown menu
+// It is used in the components/ui folder to display the dropdown menu
+// It is also used in the components/ui/dropdown-menu.tsx file to display the dropdown menu
+// It is also used in the components/ui/dropdown-menu.tsx file to display the dropdown menu
 "use client";
 
 import * as React from "react";

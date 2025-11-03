@@ -1,3 +1,8 @@
+// ScrollArea.tsx
+// This component is used to display the scroll area
+// It is used in the components/ui folder to display the scroll area
+// It is also used in the components/ui/scroll-area.tsx file to display the scroll area
+// It is also used in the components/ui/scroll-area.tsx file to display the scroll area
 "use client";
 
 import * as React from "react";
