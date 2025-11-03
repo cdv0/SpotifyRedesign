@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Playlist - Spotify</title>
+    <title>Spotify - Music for Everyone</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -15,16 +15,16 @@
             <span>Spotify</span>
         </div>
         <nav class="sidebar-nav">
-            <a href="index.html" class="nav-item">
+            <a href="index.html" class="nav-item active">
                 <img src="assets/icons/home.png" alt="Home">
                 <span>Home</span>
             </a>
-            <a href="index.html" class="nav-item">
+            <a href="#" class="nav-item" id="searchNav">
                 <img src="assets/icons/search.png" alt="Search">
                 <span>Search</span>
             </a>
-            <a href="add-playlist.html" class="nav-item active">
-                <img src="assets/icons/plus.png" alt="Create Playlist">
+            <a href="add-playlist.html" class="nav-item">
+                <img src="assets/icons/plus.png" alt="Your Library">
                 <span>Create Playlist</span>
             </a>
         </nav>
@@ -41,7 +41,6 @@
         <!-- Header -->
         <header class="top-header">
             <div class="header-left">
-                <button class="mobile-back-btn" id="mobileBackBtn">←</button>
                 <img src="assets/icons/spotify_logo.png" alt="Spotify" class="spotify-logo-header" onclick="window.location.href='index.html'">
             </div>
             <div class="search-container">
@@ -54,85 +53,61 @@
             </div>
         </header>
 
-        <!-- Create Playlist Section -->
-        <div id="createSection" class="playlist-content">
+        <!-- Search Results Area -->
+        <div id="searchResults" class="search-results" style="display: none;">
+            <div class="search-section">
+                <h2>Artists</h2>
+                <div id="artistsResults" class="results-grid"></div>
+            </div>
+            <div class="search-section">
+                <h2>Songs</h2>
+                <div id="songsResults" class="results-list"></div>
+            </div>
+            <div class="search-section">
+                <h2>Albums</h2>
+                <div id="albumsResults" class="results-grid"></div>
+            </div>
+            <div class="search-section">
+                <h2>Playlists</h2>
+                <div id="playlistsResults" class="results-grid"></div>
+            </div>
+        </div>
+
+        <!-- Home Content (default) -->
+        <div id="homeContent" class="home-content">
             <div class="content-header">
-                <h1>Create Your Playlist</h1>
-                <p style="color: #b3b3b3; margin-top: 8px;">Step 1: Give your playlist a name</p>
+                <h1>Good evening</h1>
             </div>
             
-            <div class="create-playlist-form">
-                <div class="form-group">
-                    <label for="playlistNameInput">Playlist Name</label>
-                    <input type="text" id="playlistNameInput" placeholder="My Awesome Playlist" required>
+            <div class="quick-access">
+                <div class="quick-item" onclick="playQuickItem(0)">
+                    <img src="assets/img8.jpg" alt="Album">
+                    <span>Top 50 Global</span>
                 </div>
-                <button class="btn btn-primary" id="createPlaylistBtn">Create Playlist</button>
+                <div class="quick-item" onclick="playQuickItem(1)">
+                    <img src="assets/img9.jpg" alt="Album">
+                    <span>Top 50 India</span>
+                </div>
+                <div class="quick-item" onclick="playQuickItem(2)">
+                    <img src="assets/img10.jpg" alt="Album">
+                    <span>Trending India</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>Made for You</h2>
+                </div>
+                <div class="albums-grid" id="albumsGrid"></div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>Recently Played</h2>
+                </div>
+                <div class="songs-list" id="recentSongs"></div>
             </div>
         </div>
-
-        <!-- Playlist View Section -->
-        <div id="playlistView" style="display: none;" class="playlist-content">
-            <!-- Playlist Header -->
-            <div class="playlist-view-header">
-                <div class="playlist-header-image">
-                    <img src="assets/img8.jpg" alt="Playlist" id="playlistCoverImage">
-                </div>
-                <div class="playlist-header-info">
-                    <h1 id="playlistNameDisplay">My Playlist</h1>
-                    <div class="playlist-meta-info">
-                        <img src="assets/img1.jpg" alt="Creator" class="creator-avatar">
-                        <span id="playlistCreator">You</span>
-                    </div>
-                    <p class="playlist-duration" id="playlistDuration">0min</p>
-                    <div class="playlist-actions-row">
-                        <button class="playlist-action-btn" id="addSongsBtn">
-                            + Add
-                        </button>
-                        <button class="playlist-action-btn">Mix</button>
-                        <button class="playlist-action-btn">Edit</button>
-                        <button class="playlist-action-btn">Sort</button>
-                        <button class="playlist-action-btn">Name & Details</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Playlist Songs List -->
-            <div class="playlist-songs-container">
-                <div class="songs-list" id="playlistSongsList"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Add Songs Modal -->
-    <div id="addSongsModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Add to this playlist</h2>
-                <button class="close-btn" id="closeModalBtn">&times;</button>
-            </div>
-            <div class="modal-body">
-                <!-- Search in Modal -->
-                <div class="modal-search-container">
-                    <img src="assets/icons/search.png" alt="Search" class="modal-search-icon">
-                    <input type="text" id="modalSearchInput" placeholder="Search" class="modal-search-input">
-                </div>
-                
-                <!-- Suggested Songs Section -->
-                <div class="suggested-songs-header">
-                    <h3>Suggested songs</h3>
-                </div>
-                
-                <div class="modal-songs-list" id="modalSongsList"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Confirmation Message -->
-    <div id="confirmationMessage" class="confirmation-message">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16.6667 5L7.50004 14.1667L3.33337 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span id="confirmationText">Added to playlist</span>
     </div>
 
     <!-- Audio Player -->
@@ -187,42 +162,29 @@
 
     <!-- Mobile Bottom Navigation -->
     <nav class="mobile-nav">
-        <a href="index.html" class="mobile-nav-item">
+        <a href="index.html" class="mobile-nav-item active">
             <img src="assets/icons/home.png" alt="Home">
             <span>Home</span>
         </a>
-        <a href="index.html" class="mobile-nav-item">
+        <a href="index.html" class="mobile-nav-item" id="mobileSearchNav">
             <img src="assets/icons/search.png" alt="Search">
             <span>Search</span>
         </a>
-        <a href="add-playlist.html" class="mobile-nav-item active">
+        <a href="add-playlist.html" class="mobile-nav-item">
             <img src="assets/icons/plus.png" alt="Library">
             <span>Create</span>
         </a>
     </nav>
-    </div>
 
     <script src="scripts/main.js"></script>
-    <script src="scripts/add-playlist.js"></script>
     <script>
         // Mobile menu toggle
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const mobileBackBtn = document.getElementById('mobileBackBtn');
         const sidebar = document.querySelector('.sidebar');
         
         if (mobileMenuBtn) {
             mobileMenuBtn.addEventListener('click', () => {
                 sidebar.classList.toggle('active');
-            });
-        }
-        
-        if (mobileBackBtn) {
-            mobileBackBtn.addEventListener('click', () => {
-                if (document.referrer && document.referrer !== window.location.href) {
-                    window.history.back();
-                } else {
-                    window.location.href = 'index.html';
-                }
             });
         }
         
@@ -236,6 +198,7 @@
             }
         });
     </script>
+    </div>
 </body>
 </html>
 
