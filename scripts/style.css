@@ -103,4 +103,61 @@
     .hero-meta__title { font-size: 32px; }
     .icon-btn { width: 52px; height: 52px; }
   }
+ /* =============== ARTIST TABS (sticky, scrollable) =============== */
+.artist-tabs {
+    position: sticky;
+    top: 56px; /* adjust if hero overlaps */
+    z-index: 20;
+    display: flex;
+    gap: 20px;
+    padding: 10px 16px;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    background: rgba(18,18,18,0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .artist-tabs::-webkit-scrollbar { display: none; }
   
+  .artist-tabs .tab {
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 8px;
+    color: #b3b3b3;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 0;
+    background: transparent;
+    position: relative;
+    outline: none;
+    transition: color .15s ease;
+  }
+  .artist-tabs .tab:hover { color:#e6e6e6; }
+  
+  .artist-tabs .tab.active,
+  .artist-tabs .tab.is-active {
+    color: #1DB954;
+  }
+  .artist-tabs .tab.active::after,
+  .artist-tabs .tab.is-active::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: -10px;
+    height: 2px;
+    background: #1DB954;
+    border-radius: 2px;
+  }
+  
+  @media (max-width: 420px){
+    .artist-tabs { gap: 14px; padding: 8px 12px; }
+    .artist-tabs .tab { font-size: 14px; }
+  }
+   

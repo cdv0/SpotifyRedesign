@@ -28,6 +28,26 @@ tabs.forEach(tab => {
     tab.classList.add("active");
   });
 });
+// Keep active tab centered when scrolling
+const tabsWrap = document.getElementById('artistTabs');
+function scrollTabIntoView(el){
+  if (!tabsWrap || !el) return;
+  const wrapRect = tabsWrap.getBoundingClientRect();
+  const elRect = el.getBoundingClientRect();
+  const offset = elRect.left - wrapRect.left - (wrapRect.width - elRect.width)/2;
+  tabsWrap.scrollBy({ left: offset, behavior: 'smooth' });
+}
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    scrollTabIntoView(tab);
+  });
+});
+
+window.addEventListener('load', () => {
+  const current = document.querySelector('.artist-tabs .tab.active, .artist-tabs .tab.is-active');
+  if (current) scrollTabIntoView(current);
+});
 
 // auto-number songs
 const songs = document.querySelectorAll(".song");
