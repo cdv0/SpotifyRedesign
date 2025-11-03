@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Preview Instructions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .step {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #1db954;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #1db954;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .step h3 {
+            display: inline;
+            font-size: 20px;
+        }
+        
+        .step p {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        .code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        
+        .link-btn {
+            display: block;
+            background: #1db954;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 30px 0;
+            transition: transform 0.2s;
+        }
+        
+        .link-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .screenshot {
+            background: #121212;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .mobile-frame {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            background: #000;
+            border-radius: 25px;
+            padding: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+        
+        .mobile-screen {
+            background: #121212;
+            border-radius: 20px;
+            padding: 20px;
+            min-height: 500px;
+        }
+        
+        .mobile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .hamburger {
+            font-size: 24px;
+            color: white;
+        }
+        
+        .mobile-content {
+            text-align: center;
+            color: #b3b3b3;
+            font-size: 14px;
+        }
+        
+        .mobile-nav {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+            display: flex;
+            justify-content: space-around;
+            background: #121212;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        
+        .nav-item {
+            color: #b3b3b3;
+            font-size: 10px;
+            text-align: center;
+        }
+        
+        .nav-item.active {
+            color: #1db954;
+        }
+        
+        .keyboard-shortcut {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📱 Mobile Preview Guide</h1>
+        
+        <div class="step">
+            <span class="step-number">1</span>
+            <h3>Open Your Site</h3>
+            <p>
+                Click the button below to open your Spotify redesign:
+                <br><br>
+                <a href="index.html" class="link-btn">🚀 Open Home Page</a>
+            </p>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <h3>Open Developer Tools</h3>
+            <p>
+                Press <span class="keyboard-shortcut">F12</span> or 
+                <span class="keyboard-shortcut">Cmd + Option + I</span> (Mac)
+                <br>
+                Or right-click → "Inspect"
+            </p>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">3</span>
+            <h3>Toggle Device Toolbar</h3>
+            <p>
+                Click the device icon <span class="code">📱</span> in the top-left of DevTools
+                <br>
+                Or press <span class="keyboard-shortcut">Cmd + Shift + M</span> (Mac) / 
+                <span class="keyboard-shortcut">Ctrl + Shift + M</span> (Windows)
+            </p>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">4</span>
+            <h3>Select iPhone 15 Pro</h3>
+            <p>
+                In the device dropdown at the top, select <strong>"iPhone 15 Pro"</strong>
+                <br>
+                Your site will instantly switch to mobile layout!
+            </p>
+        </div>
+        
+        <div class="screenshot">
+            <h3 style="margin-bottom: 20px; text-align: center;">📱 Mobile Layout Preview</h3>
+            <div class="mobile-frame">
+                <div class="mobile-screen">
+                    <div class="mobile-header">
+                        <span class="hamburger">☰</span>
+                        <span>Spotify</span>
+                        <span>🔔</span>
+                    </div>
+                    <div class="mobile-content">
+                        <p>This is how your site looks on mobile!</p>
+                        <br>
+                        <p style="font-size: 12px;">✓ Bottom navigation visible</p>
+                        <p style="font-size: 12px;">✓ Hamburger menu in header</p>
+                        <p style="font-size: 12px;">✓ Compact layout</p>
+                        <p style="font-size: 12px;">✓ 2-column grids</p>
+                        <p style="font-size: 12px;">✓ Touch-friendly buttons</p>
+                    </div>
+                    <div class="mobile-nav">
+                        <div class="nav-item active">
+                            <div>🏠</div>
+                            <div>Home</div>
+                        </div>
+                        <div class="nav-item">
+                            <div>🔍</div>
+                            <div>Search</div>
+                        </div>
+                        <div class="nav-item">
+                            <div>➕</div>
+                            <div>Create</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="step">
+            <h3>💡 Pro Tips</h3>
+            <p>
+                • Resize browser window to <strong>&lt; 414px</strong> width to see mobile layout
+                <br>
+                • Test all pages: Home, Playlist, Artist
+                <br>
+                • Try clicking the hamburger menu (☰) to see sidebar slide in
+                <br>
+                • Check the bottom navigation bar - it's always visible!
+            </p>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px; color: #b3b3b3;">
+            <p>Your server should be running on: <span class="code">http://localhost:5501</span></p>
+        </div>
+    </div>
+</body>
+</html>
+
