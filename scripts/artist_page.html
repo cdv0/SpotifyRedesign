@@ -13,35 +13,44 @@
     </head>
 
     <body>
-        <div class="artist-page">
-            <!-- Header Image -->
-             <div class="artist-header">
-                <img 
-                    src="/assets/arianagrande.img.png" 
-                    alt="Ariana Grande" 
-                    class="artist-img">
-
-                <!-- Back Button -->
-                <div class="back-button"></div>     <!--back button info in css file-->
-
-                <!-- Shuffle Button -->
-                 <div class="shuffle-button">
-                    <img src="/assets/icons/shuffle.png" alt="Shuffle">
-                 </div>
-
-                <!-- Play Button -->
-                 <div class="play-button">
-                    <img src="/assets/icons/play.png" alt="Play">
-                 </div>
-
-                <!-- Artist Info -->
-                <div class="artist-info">
-                    <h1>Ariana Grande</h1>
-                    <p>85.4M monthly listeners</p>
-                    <button class="follow-btn">Follow</button>
-                    <button class="more-btn">...</button>
-                </div>
-             </div>
+        <!-- HERO / HEADER -->
+<div class="artist-hero">
+    <img
+      class="artist-hero__img"
+      src="/assets/arianagrande.img.png"
+      alt="Ariana Grande"
+    />
+  
+    <!-- gradient overlay for readability -->
+    <div class="artist-hero__overlay"></div>
+  
+    <!-- top-left back button -->
+    <button class="icon-btn back-btn" aria-label="Go back">
+      <img src="/assets/icons/left_arrow.png" alt="" />
+    </button>
+  
+    <!-- right-side controls -->
+    <div class="hero-ctrls">
+      <button class="icon-btn icon-btn--ghost" aria-label="Shuffle">
+        <img src="/assets/icons/shuffle.png" alt="" />
+      </button>
+      <button class="icon-btn icon-btn--brand" aria-label="Play">
+        <img src="/assets/icons/play.png" alt="" />
+      </button>
+    </div>
+  
+    <!-- bottom-left identity block -->
+    <div class="hero-meta">
+      <p class="hero-meta__kicker">Artist</p>
+      <h1 class="hero-meta__title">Ariana Grande</h1>
+      <p class="hero-meta__sub">85.4M monthly listeners</p>
+      <div class="hero-meta__actions">
+        <button class="follow-btn">Follow</button>
+        <button class="more-btn" aria-label="More">…</button>
+      </div>
+    </div>
+  </div>
+  
 
              <!-- Navigation Tabs -->
               <div class="artist-tabs">
