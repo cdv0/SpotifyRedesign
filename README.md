@@ -16,6 +16,7 @@ The following files are part of the project (list to be updated):
 ```
 add-song-to-playlist/playlist-first/index.html
 add-song-to-playlist/song-first/index.html
-scripts/artist_page.html
-album.html 
+artist_page.html
+album.html
+podcast.html
 ```
