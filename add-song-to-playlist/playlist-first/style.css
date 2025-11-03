@@ -7,7 +7,7 @@ body {
     overflow: auto;
 }
 
-h1, p, h4, h3 {
+h1, p, h4, h3, h5 {
     color: white;
     margin: 0;
 }
@@ -239,6 +239,17 @@ h1 {
     background-color: #47464B;
     border: 0;
 
+}
+
+.undo {
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    gap: 4px;
+    display: none;
 }
 
 /* MODAL: SONG ADDED */
