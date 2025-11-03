@@ -53,12 +53,43 @@
   
 
              <!-- Navigation Tabs -->
-              <div class="artist-tabs">
-                <span class="tab active">All Music</span>
-                <span class="tab">Recent</span>
-                <span class="tab">Albums</span>
-                <span class="tab">Events</span>
+            <!-- Sticky sub-nav under hero -->
+            <nav class="artist-subnav" aria-label="Artist sections">
+                 <button class="subtab is-active" data-target="#section-all">All Music</button>
+                 <button class="subtab" data-target="#section-recent">Recent</button>
+                 <button class="subtab" data-target="#section-albums">Albums</button>
+                 <button class="subtab" data-target="#section-events">Events</button>
+            </nav>
+            <!-- SONG LIST / ALL MUSIC -->
+            <section id="section-all" class="artist-section">
+              <div class="song-list">
+                <!-- …your .song items… -->
               </div>
+              <button class="see-more-btn">See More</button>
+            </section>
+            
+            <!-- RELEASES -->
+            <section id="section-recent" class="artist-section">
+              <div class="divider">
+                <h2>Releases</h2>
+                <button class="filter-btn">Most Recent ▾</button>
+              </div>
+              <div class="releases-section">
+                <!-- …your .release items… -->
+                <a href="album.html" class="see-all-btn">See All Albums</a>
+              </div>
+            </section>
+            
+            <!-- ALBUMS (points to same content or a dedicated grid) -->
+            <section id="section-albums" class="artist-section">
+              <!-- Optional: album grid or link to album.html -->
+            </section>
+            
+            <!-- EVENTS (placeholder) -->
+            <section id="section-events" class="artist-section">
+              <!-- Optional: events list -->
+            </section>
+            
 
               <!-- Song List -->
                <div class="song-list">

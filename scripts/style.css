@@ -268,4 +268,47 @@
     .song { grid-template-columns: 24px 52px 1fr auto; }
     .song img { width: 52px; height: 52px; }
   }
+  .artist-subnav {
+    position: sticky;
+    top: 0; /* If you have a fixed app header, set this to that header’s height */
+    z-index: 5;
+    display: flex;
+    gap: 16px;
+    padding: 12px 16px;
+    background: linear-gradient(#121212, #121212); /* solid on dark */
+    border-bottom: 1px solid #222;
+  }
+  
+  .subtab {
+    position: relative;
+    background: transparent;
+    color: #b3b3b3;
+    border: 0;
+    padding: 10px 4px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .subtab:hover { color: #e5e5e5; }
+  
+  .subtab.is-active {
+    color: #fff;
+  }
+  
+  .subtab.is-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    bottom: -12px; /* sits on the sub-nav bottom edge */
+    background: var(--brand, #1DB954);
+    border-radius: 2px;
+  }
+  
+  /* section spacing */
+  .artist-section {
+    padding: 12px 16px 24px;
+  }
    
