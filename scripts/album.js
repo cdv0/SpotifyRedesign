@@ -88,6 +88,7 @@ function sortItems(items){
   const arr = items.slice();
   if(pref.sort === 'az') arr.sort((a,b)=> a.title.localeCompare(b.title) || b.year - a.year);
   else if(pref.sort === 'year-asc') arr.sort((a,b)=> a.year - b.year || a.title.localeCompare(b.title));
+  else if(pref.sort === 'za') arr.sort((a,b)=> b.title.localeCompare(a.title) || b.year - a.year);
   else arr.sort((a,b)=> b.year - a.year || a.title.localeCompare(b.title));
   return arr;
 }
