@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: "Nunito", Roboto, sans-serif;
+    height: calc(100vh - 40px);
+    background: #161616;
+    overflow: auto;
+}
+
+h1, p, h4, h3, h5 {
+    color: white;
+    margin: 0;
+}
+
+
+/* HEADER */
+.top-btn-section {
+    background-color: #333333;
+    padding: 20px 0 10px 0;
+}
+
+.search-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 20px 14px 20px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(99, 99, 99);
+    padding: 4px 4px 4px 10px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.util {
+    display: flex;
+    gap: 12px;
+    overflow: auto;
+    padding: 0 0 0 20px;
+}
+
+.util-item {
+    background-color: rgb(99, 99, 99);
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+.xsText, .song-artist {
+    font-size: 13px;
+}
+
+/* SONGS */
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 16px;
+}
+
+.song-btn {
+    all: unset;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-item-left {
+    display: flex;
+    gap: 12px;
+}
+
+.song-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.song-title {
+    font-weight: 600;
+}
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 20px 4px 20px;
+    background: rgba(18,18,18,0.95);
+}
+
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-icon p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+}
+
+.modal.open {
+  display: block;
+  opacity: 1;
+  z-index: 9999;
+}
+
+.modal .modal-panel {
+  background: #121212;
+  color: white;
+  padding: 10px 16px;
+  margin-top: 30px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: calc(100vh - 30px);
+  overflow: auto;
+}
+
+.close {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+
+.modal-header {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-header h4, .modal-search h4 {
+  text-align: center;
+}
+
+.modal-search {
+    display: flex;
+    gap: 6px;
+    padding: 8px;
+    background-color: #47464B;
+    border-radius: 6px;
+    align-items: center;
+    margin: 18px 0;
+}
+
+.new-playlist-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.new-playlist-btn h5, .save-btn h5 {
+    color: black;
+}
+
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.xsTextGreen {
+    color: rgb(11, 238, 90);
+}
+
+.playlist-list {
+    padding: 16px 0;
+}
+
+.playlist-img {
+    background-color: rgba(78, 78, 78, 0.692);
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.done-btn {
+    background-color: rgb(11, 238, 90);
+}
+
+.done-btn-sec {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 35px;
+  display: flex;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.done-btn-sec { 
+  pointer-events: none; 
+}
+
+.done-btn { 
+  pointer-events: auto; 
+  cursor: pointer; 
+}
